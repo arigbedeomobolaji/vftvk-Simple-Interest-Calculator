@@ -7,13 +7,61 @@ body {
 h1{
   color: grey;
   font-family: verdana;
+
 }
 
 .maindiv {
     background-color: white;
     color: black;
-    width: 300px;
+    width: 600px;
     padding: 20px;
     border-radius: 25px;
-    align: center;
+    margin: auto;
+}
+
+
+.formdiv {
+    margin-left: 5rem;
+}
+
+.formdiv > * {
+    margin: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 
+}
+
+.input-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+.input-group > label {
+    width: 8.5rem;
+    font-weight: bold;
+}
+
+.button {
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    border: #999 1px solid;
+}
+.input-group input[type=number] {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.input-group select {
+    padding: 0.25rem 1rem;
+}
+.highlight{
+    background: yellow;
+}
+
+.result {
+    line-height: 1.2;
 }
